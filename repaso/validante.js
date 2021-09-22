@@ -17,7 +17,7 @@ checkPassword = function() {
         alert("Debe poseer caracteres válidos");
         return("bad_char");
     }
-    location.replace("misSolicitudes.html")
+    redireccion()
     alert("oukey!!");
     
     
