@@ -3,6 +3,22 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  h1 {
+    background-color: rgb(190, 186, 186);
+    color: white;
+    font-family: monospace;
+    height: 60px;
+    margin-top: 10px;
+    
+
+    
+  }
+  h2 {
+    background-color: rgb(190, 186, 186);
+    color: white;
+    font-family: monospace;
+  }
   
   body {
     font-family: arial;
@@ -67,4 +83,25 @@
   
   .form-login a:hover {
     text-decoration: underline;
+  }
+
+  footer {
+    font-family: arial;
+    color: white;
+    background-color: #000000e0;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-top: 110px;
+    text-align: center;
+      
+  }
+
+  .textoFooter{
+      text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
   }
