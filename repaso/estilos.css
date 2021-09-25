@@ -88,13 +88,13 @@
     background-color: #000000e0;
     height: 60px;
     margin-bottom: 0px;
-    margin-top: 110px;
+    margin-top: 400px;
     text-align: center;
       
   }
 
   .textoFooter{
-      text-align: center;
+    text-align: center;
     position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);

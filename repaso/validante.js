@@ -18,16 +18,19 @@ checkPassword = function() {
         return("bad_char");
     }
     redireccion()
-    alert("oukey!!");
+    //alert("oukey!!");
     
     
     //return("ok");
 }
 
 redireccion = function() {
-    window.location = "misSolicitudes.html";
+    window.location.href = "misSolicitudes.html";
 }
 
-document.getElementById("botonaco").addEventListener("click", checkPassword)
+document.getElementById("botonaco").addEventListener("click", (ev)=>{
+    ev.preventDefault() 
+    checkPassword()
+})
 
 
